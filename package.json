@@ -15,7 +15,8 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
     "serve": "^11.3.0",
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.4",
+    "prop-types": "latest"
   },
   "scripts": {
     "start:dev": "npx react-scripts start",

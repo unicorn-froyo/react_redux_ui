@@ -1,6 +1,8 @@
-# react_redux_ui
+# React UI with Redux Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The idea was to 
+create a template of a bare bones React / Redux application. Launch the project, and click the button; if you have the 
+redux-devtools extension installed, you will see the redux store update. 
 
 ## Available Scripts
 
