@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  ui:
+    container_name: react_redux_ui
+    image: react_redux_ui:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/react_redux_ui/
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
